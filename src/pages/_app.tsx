@@ -1,28 +1,29 @@
+import type { AppProps } from "next/app";
+import dynamic from "next/dynamic";
+import { useEffect } from "react";
 
+import { globalStyle } from "stitches.config";
 
-import type { AppProps } from 'next/app'
-import dynamic from 'next/dynamic'
-import { useEffect } from 'react'
+const CartProvider = dynamic(
+  () => import("@/context/cart").then((t) => t.CartProvider),
+  {
+    ssr: false,
+  }
+);
 
-import { globalStyle } from 'stitches.config'
+// const Newsletter = dynamic(() => import('@/components/common').then(t => t.Newsletter), {
+//   ssr: false
+// })
 
-const CartProvider = dynamic(() => import('@/context/cart').then(t => t.CartProvider), {
-  ssr: false
-})
-
-const Newsletter = dynamic(() => import('@/components/common').then(t => t.Newsletter), {
-  ssr: false
-})
-
-export default function MyApp ({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
-    globalStyle()
-  }, [])
+    globalStyle();
+  }, []);
 
   return (
     <CartProvider>
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Component {...pageProps} />
     </CartProvider>
-  )
+  );
 }

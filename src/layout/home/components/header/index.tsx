@@ -37,13 +37,15 @@ export function Header() {
       <Styles.Navigation active={isOpen}>
         <Styles.NavHeader>
           <Box flex={1} justifyContent="center" alignItems="center">
-            <Image
+            <Typography>YOHAB DRESS</Typography>
+
+            {/* <Image
               src="/logo.svg"
               alt="logo"
               width={70}
               height={70}
               style={{ objectFit: "contain" }}
-            />
+            /> */}
           </Box>
           <ButtonIcon
             onClick={() => setIsOpen(false)}

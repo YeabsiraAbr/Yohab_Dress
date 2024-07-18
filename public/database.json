@@ -24,7 +24,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -75,7 +75,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -122,7 +122,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -169,7 +169,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -216,7 +216,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -263,7 +263,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -310,7 +310,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -357,7 +357,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -404,7 +404,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -451,7 +451,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -498,7 +498,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -549,7 +549,7 @@
           "value": 2
         },
         {
-          "label": "G",
+          "label": "L",
           "value": 2
         }
       ],
@@ -582,7 +582,7 @@
       {
         "title": "Favorite clothing",
         "sub_title": "30% OFF",
-        "image": "/yohab_dress-17-07-2024-0004.jpg",
+        "image": "/yohab_dress-18-07-2024-0007.jpg",
         "action": {
           "label": "get collection",
           "path": ""
@@ -591,7 +591,7 @@
       {
         "title": "Favorite clothing",
         "sub_title": "30% OFF",
-        "image": "/yohab_dress-17-07-2024-0006.jpg",
+        "image": "/yohab_dress-17-07-2024-0004.jpg",
         "action": {
           "label": "get collection",
           "path": ""
@@ -615,11 +615,11 @@
     ],
     "collection_banner": [
       {
-        "image": "/yohab_dress-17-07-2024-0011.jpg",
+        "image": "/yohab_dress-18-07-2024-0002.jpg",
         "collection_type": "woman"
       },
       {
-        "image": "/yohab_dress-17-07-2024-0012.jpg",
+        "image": "/goffh.ey-18-07-2024-0001.jpg",
         "collection_type": "man"
       },
       {

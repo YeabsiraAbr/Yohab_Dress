@@ -1,37 +1,40 @@
-import
-Document,
-{
+import Document, {
   DocumentContext,
   DocumentInitialProps,
   Html,
   Head,
   Main,
-  NextScript
-} from 'next/document'
-import { getCssText } from 'stitches.config'
+  NextScript,
+} from "next/document";
+import { getCssText } from "stitches.config";
 
 class MyDocument extends Document {
-  static async getInitialProps (
+  static async getInitialProps(
     ctx: DocumentContext
   ): Promise<DocumentInitialProps> {
-    const initialProps = await Document.getInitialProps(ctx)
+    const initialProps = await Document.getInitialProps(ctx);
 
-    return initialProps
+    return initialProps;
   }
 
-  render () {
+  render() {
     return (
-      <Html lang="pt-BR">
+      <Html>
         <Head>
-          <style id="stitches" dangerouslySetInnerHTML={{ __html: getCssText() }} />
+          <meta name="google" content="notranslate" />
+
+          <style
+            id="stitches"
+            dangerouslySetInnerHTML={{ __html: getCssText() }}
+          />
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;
